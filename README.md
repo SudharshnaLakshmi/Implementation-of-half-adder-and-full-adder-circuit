@@ -37,12 +37,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: 
 RegisterNumber: 
 
-module ex02(a,b,sum,carry);
-input a,b;
-output sum,carry;
-xor(sum,a,b);
-and(carry,a,b);
-endmodule
+
 
 */
 ```
@@ -51,7 +46,6 @@ endmodule
 ## RTL realization 
 
 ## Output:
-![RTL](./halg.png)
 
 ## Result:
 Thus the half adder and full adder circuits are designed and the truth tables is verified using quartus software.
