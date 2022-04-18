@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/DE/ex02/ex02.v
+source_file = 1, D:/DE/ex02/db/ex02.cbx.xml
+design_name = ex02
+instance = comp, \sum~output , sum~output, ex02, 1
+instance = comp, \carry~output , carry~output, ex02, 1
+instance = comp, \a~input , a~input, ex02, 1
+instance = comp, \b~input , b~input, ex02, 1
+instance = comp, \comb~0 , comb~0, ex02, 1
+instance = comp, \comb~1 , comb~1, ex02, 1

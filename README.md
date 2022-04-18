@@ -35,7 +35,15 @@ Carry = AB + ACin + BCin
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: 
-RegisterNumber:  
+RegisterNumber: 
+
+module ex02(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
+
 */
 ```
 ## Logic symbol & Truthtable
@@ -43,7 +51,7 @@ RegisterNumber:
 ## RTL realization 
 
 ## Output:
-![RTL](sam.png)
+![RTL](./halg.png)
 
 ## Result:
 Thus the half adder and full adder circuits are designed and the truth tables is verified using quartus software.
